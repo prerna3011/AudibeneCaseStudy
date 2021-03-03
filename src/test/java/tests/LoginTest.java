@@ -20,14 +20,5 @@ public class LoginTest extends BaseTest {
         logger.info("process:'loginWithExistingUser', event:'end-test'");
     }
 
-//    @Test(priority = 2, groups = {"fail"})
-//    public void showFailure() {
-//        logger.info("process:'showFailure', event:'start-test'");
-//
-//        // Failing the test to show screenshot capturing
-//        assertThat(1).isGreaterThan(2);
-//
-//        logger.info("process:'showFailure', event:'end-test'");
-//    }
 
 }

@@ -16,7 +16,7 @@
 #### Pre-requisite:
 
 * Maven (brew install maven)
-* Java
+* Java (jdk1.8)
 * Allure (brew install allure)
     
 #### How to execute

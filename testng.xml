@@ -9,20 +9,18 @@
     <test name="Web Test - Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="tests.LoginTest"></class>
+            <class name="tests.LoginTest"/>
 <!--            <class name="tests.ExitIntentTest"></class>-->
             <class name="tests.SortingTest"/>
             <class name="tests.ControlsTest"/>
             <class name="tests.NewTabTest"/>
         </classes>
     </test>
-<!--    <test name="Web Test - Opera">-->
-<!--        <parameter name="browser" value="opera"/>-->
-<!--        <classes>-->
-<!--            <class name="tests.LoginTest"></class>-->
-<!--            <class name="tests.RegistrationTest"></class>-->
-<!--            <class name="tests.CheckoutTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="APITest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.APITest"/>
+        </classes>
+    </test>
 
 </suite>
