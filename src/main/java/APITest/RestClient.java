@@ -1,4 +1,4 @@
-package demo;
+package APITest;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -13,6 +13,7 @@ import java.util.List;
 public class RestClient {
 
 
+ // private static Logger logger = LoggerFactory.getLogger(RestClient.class);
   private static ObjectMapper mapper = new ObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
   public static List<String> fetchCategories(){
@@ -56,8 +57,7 @@ public class RestClient {
   public static boolean checkIfContainsQueryString(SearchResponse searchResponses,String searchText) {
     boolean isExists = false;
     for(Item item : searchResponses.getResult()){
-      System.out.println(item);
-
+        System.out.println(item);
         if(item.getValue().contains(searchText)){
           isExists = true ;
         }

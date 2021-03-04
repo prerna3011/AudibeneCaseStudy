@@ -1,7 +1,7 @@
 package tests;
 
-import demo.RestClient;
-import demo.SearchResponse;
+import APITest.RestClient;
+import APITest.SearchResponse;
 import org.testng.annotations.Test;
 
 import java.util.List;
