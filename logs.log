@@ -1,54 +1,54 @@
-2021-03-03 20:56:56 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
-2021-03-03 20:56:56 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
-2021-03-03 20:56:56 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
-2021-03-03 20:56:56 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
-2021-03-03 20:56:56 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
-2021-03-03 20:56:56 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-2021-03-03 20:56:58 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
-2021-03-03 20:56:58 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-2021-03-03 20:56:58 [tests.LoginTest] INFO :: process:'loginWithExistingUser', event:'start-test'
-2021-03-03 20:56:59 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
-2021-03-03 20:56:59 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-2021-03-03 20:56:59 [tests.ControlsTest] INFO :: process:'checkExitIntent', event:'start-test'
-2021-03-03 20:57:00 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
-2021-03-03 20:57:00 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-2021-03-03 20:57:00 [tests.SortingTest] INFO :: process:'sortingNames', event:'start-test'
-2021-03-03 20:57:01 [tests.NewTabTest] INFO :: process:'verifyNewTab', event:'start-test'
-2021-03-03 20:57:01 [pages.ControlsPage] INFO :: Input field is disabled
-2021-03-03 20:57:01 [pages.ControlsPage] INFO :: Button Name is Enable
-2021-03-03 20:57:02 [pages.HomePage] INFO :: Login button is clicked successfully
-2021-03-03 20:57:02 [pages.HomePage] INFO :: User is logged in and Success Message is verified'
-2021-03-03 20:57:03 [pages.HomePage] INFO :: User has clicked on Logout button
-2021-03-03 20:57:03 [pages.HomePage] INFO :: Logout Message is verified
-2021-03-03 20:57:03 [tests.LoginTest] INFO :: process:'loginWithExistingUser', event:'end-test'
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Size of table one is 4
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Size of table two is 4
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Last name is clicked successfully for Table One
-2021-03-03 20:57:03 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
-2021-03-03 20:57:03 [pages.TablePage] INFO :: First name is clicked successfully for Table two
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Table Last names are added in the list as [Bach, Conway, Doe, Smith]
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Names are set in ascending order
-2021-03-03 20:57:03 [pages.TablePage] INFO :: List is sorted
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Table First name are added in the list as [Frank, Jason, John, Tim]
-2021-03-03 20:57:03 [pages.TablePage] INFO :: Names are set in ascending order
-2021-03-03 20:57:03 [pages.TablePage] INFO :: List is sorted
-2021-03-03 20:57:03 [tests.SortingTest] INFO :: process:'sortingNames', event:'end-test'
-2021-03-03 20:57:03 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
-2021-03-03 20:57:04 [pages.WindowPage] INFO :: Click here button is clicked successfully 
-2021-03-03 20:57:04 [pages.WindowPage] INFO :: New window is verified successfully
-2021-03-03 20:57:04 [tests.NewTabTest] INFO :: process:'verifyNewTab', event:'end-test'
-2021-03-03 20:57:04 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
-2021-03-03 20:57:05 [pages.ControlsPage] INFO :: Success message is verified successfully for Enable
-2021-03-03 20:57:05 [pages.ControlsPage] INFO :: Input value is entered successfully
-2021-03-03 20:57:05 [pages.ControlsPage] INFO :: Input field is enabled
-2021-03-03 20:57:05 [pages.ControlsPage] INFO :: Button Name is Disable
-2021-03-03 20:57:08 [pages.ControlsPage] INFO :: Success message is verified successfully for Disable 
-2021-03-03 20:57:08 [pages.ControlsPage] INFO :: Input value is matched successfully as Test
-2021-03-03 20:57:08 [tests.ControlsTest] INFO :: process:'checkExitIntent', event:'end-test'
-2021-03-03 20:57:08 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
-2021-03-03 20:57:08 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
-2021-03-03 20:57:08 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
-2021-03-03 20:57:08 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-2021-03-03 20:57:10 [tests.APITest] INFO :: 17
-2021-03-03 20:57:10 [tests.APITest] INFO :: true
-2021-03-03 20:57:10 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
+2021-03-04 09:57:24 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
+2021-03-04 09:57:24 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
+2021-03-04 09:57:24 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
+2021-03-04 09:57:24 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
+2021-03-04 09:57:24 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
+2021-03-04 09:57:24 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+2021-03-04 09:57:25 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
+2021-03-04 09:57:25 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+2021-03-04 09:57:26 [tests.LoginTest] INFO :: process:'loginWithExistingUser', event:'start-test'
+2021-03-04 09:57:26 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
+2021-03-04 09:57:26 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+2021-03-04 09:57:26 [tests.NewTabTest] INFO :: process:'verifyNewTab', event:'start-test'
+2021-03-04 09:57:27 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
+2021-03-04 09:57:27 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+2021-03-04 09:57:27 [tests.ControlsTest] INFO :: process:'checkExitIntent', event:'start-test'
+2021-03-04 09:57:29 [tests.SortingTest] INFO :: process:'sortingNames', event:'start-test'
+2021-03-04 09:57:30 [pages.HomePage] INFO :: Login button is clicked successfully
+2021-03-04 09:57:30 [pages.WindowPage] INFO :: Click here button is clicked successfully 
+2021-03-04 09:57:30 [pages.HomePage] INFO :: User is logged in and Success Message is verified'
+2021-03-04 09:57:30 [pages.WindowPage] INFO :: New window is verified successfully
+2021-03-04 09:57:30 [tests.NewTabTest] INFO :: process:'verifyNewTab', event:'end-test'
+2021-03-04 09:57:30 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
+2021-03-04 09:57:30 [pages.HomePage] INFO :: User has clicked on Logout button
+2021-03-04 09:57:30 [pages.HomePage] INFO :: Logout Message is verified
+2021-03-04 09:57:30 [tests.LoginTest] INFO :: process:'loginWithExistingUser', event:'end-test'
+2021-03-04 09:57:30 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
+2021-03-04 09:57:31 [pages.ControlsPage] INFO :: Input field is disabled
+2021-03-04 09:57:31 [pages.ControlsPage] INFO :: Button Name is Enable
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Size of table one is 4
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Size of table two is 4
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Last name is clicked successfully for Table One
+2021-03-04 09:57:32 [pages.TablePage] INFO :: First name is clicked successfully for Table two
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Table Last names are added in the list as [Bach, Conway, Doe, Smith]
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Names are set in ascending order
+2021-03-04 09:57:32 [pages.TablePage] INFO :: List is sorted
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Table First name are added in the list as [Frank, Jason, John, Tim]
+2021-03-04 09:57:32 [pages.TablePage] INFO :: Names are set in ascending order
+2021-03-04 09:57:32 [pages.TablePage] INFO :: List is sorted
+2021-03-04 09:57:32 [tests.SortingTest] INFO :: process:'sortingNames', event:'end-test'
+2021-03-04 09:57:32 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
+2021-03-04 09:57:34 [pages.ControlsPage] INFO :: Success message is verified successfully for Enable
+2021-03-04 09:57:34 [pages.ControlsPage] INFO :: Input value is entered successfully
+2021-03-04 09:57:34 [pages.ControlsPage] INFO :: Input field is enabled
+2021-03-04 09:57:34 [pages.ControlsPage] INFO :: Button Name is Disable
+2021-03-04 09:57:37 [pages.ControlsPage] INFO :: Success message is verified successfully for Disable 
+2021-03-04 09:57:37 [pages.ControlsPage] INFO :: Input value is matched successfully as Test
+2021-03-04 09:57:37 [tests.ControlsTest] INFO :: process:'checkExitIntent', event:'end-test'
+2021-03-04 09:57:37 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
+2021-03-04 09:57:37 [tests.BaseTest] INFO :: process:'setup', event:'Initiating Browser', name:'CHROME'
+2021-03-04 09:57:37 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 89.0.4389.23 (since Google Chrome 89 is installed in your machine)
+2021-03-04 09:57:37 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as /Users/prernawadhwa/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+2021-03-04 09:57:39 [tests.APITest] INFO :: 17
+2021-03-04 09:57:39 [tests.APITest] INFO :: true
+2021-03-04 09:57:39 [tests.BaseTest] INFO :: process:'tearDown', event:'Quiting Browser'
